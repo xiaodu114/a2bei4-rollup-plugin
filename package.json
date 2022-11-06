@@ -1,0 +1,42 @@
+{
+    "name": "a2bei4-rollup-plugin",
+    "version": "1.0.0",
+    "author": "xiaodu114 <ddz_job@outlook.com>",
+    "description": "rollup插件：监听外部文件（无关文件）、通过配置自动刷新页面",
+    "keywords": [
+        "a2bei4",
+        "rollup",
+        "plugin",
+        "rollup plugin",
+        "watch",
+        "external",
+        "监听外部文件",
+        "监听无关文件",
+        "auto",
+        "reload",
+        "page",
+        "自动刷新页面"
+    ],
+    "main": "dist/a2bei4-rollup-plugin-cjs.js",
+    "module": "dist/a2bei4-rollup-plugin-esm.js",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xiaodu114/a2bei4-rollup-plugin.git"
+    },
+    "homepage": "https://github.com/xiaodu114/a2bei4-rollup-plugin",
+    "scripts": {
+        "c": "rollup -c",
+        "cw": "rollup -cw"
+    },
+    "peerDependencies": {
+        "rollup": ">=3"
+    },
+    "dependencies": {
+        "puppeteer-core": "^19.2.2",
+        "selenium-webdriver": "^4.6.0"
+    },
+    "devDependencies": {
+        "rollup": "^3.2.5"
+    }
+}
