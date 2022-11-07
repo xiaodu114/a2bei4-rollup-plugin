@@ -1,6 +1,6 @@
 {
     "name": "a2bei4-rollup-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "xiaodu114 <ddz_job@outlook.com>",
     "description": "rollup插件：监听外部文件（无关文件）、通过配置自动刷新页面",
     "keywords": [
